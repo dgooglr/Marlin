@@ -750,7 +750,8 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 440 }
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 440 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 435.21 }
 
 /**
  * Default Max Feed Rate (mm/s)
